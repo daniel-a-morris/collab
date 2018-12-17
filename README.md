@@ -1,2 +1,2 @@
 # collab
-automatically updates and limits students' time at the collaborative tables
+automatically updates and displays students' remaining time at the collaborative tables
