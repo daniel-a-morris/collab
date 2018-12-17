@@ -23,15 +23,12 @@ if($response){
   </tr>';
   
   while($row = mysqli_fetch_array($response)){
-    
     echo '<tr><td align = "left">' .
     $row[first_name] . '</td><td align = "left">' .
     $row[last_name] . '</td><td align = "left">' .
     $row[student_id] . '</td><td align = "left">' .
     $row[time_entered] . '</td><td align = "left">';
-    
     echo '</tr>';
-    
   }
   
   echo '</table';
