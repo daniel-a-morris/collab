@@ -64,7 +64,7 @@ if(isset($_POST[submit])){
     
   }else{
     
-    echo 'You need to enter the following data:<br>';
+    echo 'You need to enter the following data: <br>';
     
     foreach($data_missing as $missing){
       
